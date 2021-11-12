@@ -7,101 +7,100 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace _110_1Mid
+namespace 110_1Mid {
+    
+    
+    public partial class Sample1
 {
 
+    /// <summary>
+    /// form1 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
-    public partial class Sample1
-    {
+    /// <summary>
+    /// tb_Id 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox tb_Id;
 
-        /// <summary>
-        /// form1 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+    /// <summary>
+    /// tb_Ps 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox tb_Ps;
 
-        /// <summary>
-        /// tb_Id 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_Id;
+    /// <summary>
+    /// ImageButton1 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
 
-        /// <summary>
-        /// tb_Ps 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_Ps;
+    /// <summary>
+    /// cl_Inter 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.RadioButtonList cl_Inter;
 
-        /// <summary>
-        /// ImageButton1 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+    /// <summary>
+    /// HyperLink1 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
 
-        /// <summary>
-        /// cl_Inter 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList cl_Inter;
+    /// <summary>
+    /// tb_Num 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox tb_Num;
 
-        /// <summary>
-        /// HyperLink1 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+    /// <summary>
+    /// ig_Num 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Image ig_Num;
 
-        /// <summary>
-        /// tb_Num 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_Num;
+    /// <summary>
+    /// hd_Num 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HiddenField hd_Num;
 
-        /// <summary>
-        /// ig_Num 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ig_Num;
-
-        /// <summary>
-        /// hd_Num 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField hd_Num;
-
-        /// <summary>
-        /// btn_Submit 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_Submit;
-    }
+    /// <summary>
+    /// btn_Submit 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Button btn_Submit;
+}
 }

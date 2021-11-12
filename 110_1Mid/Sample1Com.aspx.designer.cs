@@ -7,29 +7,28 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace _110_1Mid
+namespace 110_1Mid {
+    
+    
+    public partial class Sample1Com
 {
 
+    /// <summary>
+    /// form1 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
-    public partial class Sample1Com
-    {
-
-        /// <summary>
-        /// form1 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// lb_Msg 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_Msg;
-    }
+    /// <summary>
+    /// lb_Msg 控制項。
+    /// </summary>
+    /// <remarks>
+    /// 自動產生的欄位。
+    /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label lb_Msg;
+}
 }

@@ -5,8 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace _110_1Mid {
-    public partial class sample2 : System.Web.UI.Page
+namespace 110_1Mid
+{
+    public partial class Sample2 : System.Web.UI.Page
     {
         String[,] sa_ZoneCode = new String[2, 3] { { "0911", "0921", "0960" }, { "02", "04", "07" } };
         String[] sa_City1 = new String[6] { "台北市", "新北市", "台中市", "台中縣", "高雄市", "高雄縣" };
