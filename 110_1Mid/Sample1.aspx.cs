@@ -8,7 +8,12 @@ using System.Web.UI.WebControls;
 namespace _110_1Mid {
     public partial class Sample1 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
-
+            if (!IsPostBack)
+            {
+                string s_Ver = mt_GenVeriStr();
+                mt_ImgPointer(ref ig_Num, s_Ver);
+                hd_Num.Value = mt_2MD5(s_Ver);
+            }
         }
 
         // To generate a 4 digital number
@@ -66,5 +71,23 @@ namespace _110_1Mid {
                 .ToUpper();
             return s_Md5;
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            string temp = tb_Ps.Text;
+            if (ImageButton1.ImageUrl == "eye-slash-solid.svg")
+            {
+                ImageButton1.ImageUrl = "eye-solid.svg";
+                tb_Ps.TextMode = TextBoxMode.SingleLine;
+            }
+            else if (ImageButton1.ImageUrl == "eye-solid.svg")
+            {
+                ImageButton1.ImageUrl = "eye-slash-solid.svg";
+                tb_Ps.Attributes.Add("value", temp);
+                tb_Ps.TextMode = TextBoxMode.Password;
+            }
+        }
+
+        
     }
 }
