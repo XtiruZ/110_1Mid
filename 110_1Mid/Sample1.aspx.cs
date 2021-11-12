@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace 110_1Mid 
+namespace _110_1Mid 
 {
     public partial class Sample1 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
@@ -89,6 +89,14 @@ namespace 110_1Mid
             }
         }
 
-        
+        protected void cl_Inter_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btn_Submit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

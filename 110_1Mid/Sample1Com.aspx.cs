@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace 110_1Mid {
+namespace _110_1Mid {
     public partial class Sample1Com : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e)
         {
