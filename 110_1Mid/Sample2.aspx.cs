@@ -19,12 +19,12 @@ namespace 110_1Mid
             if (IsPostBack == false)
             {
                 ListItem o_li;
-                for (int i = 0; i <= 2; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     o_li = new ListItem(sa_ZoneCode[0, i], sa_ZoneCode[0, i]);
                     ddl_ZoneCode.Items.Add(o_li);
                 }
-                for (int i = 0; i <= 5; i++)
+                for (int i = 0; i < 6; i++)
                 {
                     o_li = new ListItem(sa_City1[i], sa_City1[i]);
                     ddl_City.Items.Add(o_li);
@@ -39,12 +39,12 @@ namespace 110_1Mid
             ListItem o_li;
             if (ddl_Type.SelectedValue == "手機")
             {
-                for (int i = 0; i <= 2; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     o_li = new ListItem(sa_ZoneCode[0, i], sa_ZoneCode[0, i]);
                     ddl_ZoneCode.Items.Add(o_li);
                 }
-                for (int i = 0; i <= 5; i++)
+                for (int i = 0; i < 6; i++)
                 {
                     o_li = new ListItem(sa_City1[i], sa_City1[i]);
                     ddl_City.Items.Add(o_li);
@@ -52,12 +52,12 @@ namespace 110_1Mid
             }
             else
             {
-                for (int i = 0; i <= 2; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     o_li = new ListItem(sa_ZoneCode[1, i], sa_ZoneCode[1, i]);
                     ddl_ZoneCode.Items.Add(o_li);
                 }
-                for (int i = 0; i <= 1; i++)
+                for (int i = 0; i < 2; i++)
                 {
                     o_li = new ListItem(sa_City2[0, i], sa_City2[0, i]);
                     ddl_City.Items.Add(o_li);
@@ -71,28 +71,28 @@ namespace 110_1Mid
             switch (ddl_ZoneCode.SelectedValue)
             {
                 case "02":
-                    for (int i = 0; i <= 1; i++)
+                    for (int i = 0; i < 2; i++)
                     {
                         o_li = new ListItem(sa_City2[0, i], sa_City2[0, i]);
                         ddl_City.Items.Add(o_li);
                     }
                     break;
                 case "04":
-                    for (int i = 0; i <= 1; i++)
+                    for (int i = 0; i < 2; i++)
                     {
                         o_li = new ListItem(sa_City2[1, i], sa_City2[1, i]);
                         ddl_City.Items.Add(o_li);
                     }
                     break;
                 case "07":
-                    for (int i = 0; i <= 1; i++)
+                    for (int i = 0; i < 2; i++)
                     {
                         o_li = new ListItem(sa_City2[2, i], sa_City2[2, i]);
                         ddl_City.Items.Add(o_li);
                     }
                     break;
                 default:
-                    for (int i = 0; i <= 5; i++)
+                    for (int i = 0; i < 6; i++)
                     {
                         o_li = new ListItem(sa_City1[i], sa_City1[i]);
                         ddl_City.Items.Add(o_li);
